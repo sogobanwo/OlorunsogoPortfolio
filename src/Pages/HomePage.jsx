@@ -15,6 +15,7 @@ import python from "../PortfolioImages/Pythonpics.png"
 import flask from "../PortfolioImages/Flaskpics.png"
 import SetterApp from "../PortfolioImages/SetterAppPics.png"
 import TaskManager from "../PortfolioImages/TaskManager.png"
+import Iframe from "react-iframe"
 
 export const HomePageContent =()=>{
   return(
@@ -64,26 +65,26 @@ export const HomePageContent =()=>{
     <div className="index-card">
       <div className="each-card">
         <img src={SetterApp} width="120px" height="120px" alt="Sogo" />
-        <h1>NEWSGRID WEBSITE</h1>
-        <p>This is a newsgrid website which has 3 pages and various sections in the different pages built with the use of CSS Grid. It is not Responsive.</p>
-        <p>Tech Stack: HTML &amp; CSS</p>
-        <a href="https://github.com/sogobanwo/newsgrid" target="_blank" rel="noopener noreferrer">
+        <h1>SETTERAPP</h1>
+        <p>A social media management application which enables users to make post on different their various social media account from one platform.</p>
+        <p>Tech Stack: ReactJs & CSS</p>
+        <a href="https://github.com/sogobanwo/SetterApp" target="_blank" rel="noopener noreferrer">
           <FaGithub size="25px"/>
         </a>
-        <a href="https://github.com/sogobanwo/newsgrid" target="_blank" rel="noopener noreferrer">
+        <a href="https://setterapp.vercel.app/" target="_blank" rel="noopener noreferrer">
          <FaGlobe size="25px" />
         </a>
       </div>
       <div>
         <div className="each-card">
           <img src={TaskManager} width="120px" height="120px" alt="Sogo" />
-          <h1>PORTFOLIO WEBSITE</h1>
-          <p>This is a Portfoliowebsite which has only a page and various sections in this page built with the use of CSS Flex.</p>
-          <p>Tech Stack: HTML &amp; CSS</p>
-          <a href="https://github.com/sogobanwo/portfolio" target="_blank" rel="noopener noreferrer">
+          <h1>TASK MANAGER</h1>
+          <p>An application which helps users manage their task and be able to check their progress as when they are done they can easily check and delete the task done.</p>
+          <p>Tech Stack: ReactJS & CSS</p>
+          <a href="https://github.com/sogobanwo/Task-Management-App" target="_blank" rel="noopener noreferrer">
            <FaGithub size="25px"/>
           </a>
-          <a href="https://sogobanwo-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <a href="https://banwo-task-manager.netlify.app/" target="_blank" rel="noopener noreferrer">
             <FaGlobe size="25px"/>
           </a>
         </div>
