@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Open+Sans&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --color-p: #E70FAA;
+  --color-b: #42446E;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+  font-size: 9px;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0 20rem;
+  padding: .5rem 0;
+  background-color: #eee;
+}
+header{
+  display: flex;
+  flex-direction: column;
+}
+.header-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.my_logo{
+  color: var(--color-p);
+  font-family: pacifico, sans-serif;
+  font-size: 3.5rem;
+  align-items: center;
+}
+#navbar{
+  display: flex;
+}
+#header_link, #header_icon{
+  display: flex;
+  align-items: center;
+}
+#header_link > a, #header_icon > a{
+  margin: 0 3rem;
+  font-size: 1.7rem;
+  color: var(--color-b);
+}
+#header_link > a:hover, #header_icon > a:hover{
+  color: var(--color-p);
+}
+.active{
+  color: var(--color-p);
+}
+#middle_line{
+  width: 100%;
+  height: .3rem;
+  background-color: #ddd;
+  border-radius: 1rem;
+  margin-top: .5rem;
+}
