@@ -1,0 +1,56 @@
+:root{
+  --color-p: #E70FAA;
+  --color-b: #42446E;
+}
+
+.work-with-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.work-with-me-header > h2{
+  font-size: 3rem;
+  color:var(--color-b);
+  padding: 2rem;
+}
+
+.input-section > label,
+.input-section > input,
+.input-section > textarea{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  width: 40vw;
+  padding: 1rem;
+}
+.input-section > input:focus,
+.input-section > textarea:focus{
+  border-color: #87cefa;
+
+}
+.input-section > label{
+  margin-bottom: .5rem;
+  font-weight: bold ;
+  padding: 0;
+  color: var(--color-b) ;
+  font-size: 2rem;
+}
+.input-section > .submit{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: var(--color-b);
+}
+.input-section > .submit >button{
+  color: var(--color-b);
+  font-size: 2rem;
+  width: 100%;
+  padding: .5rem;
+}
+.input-section > .submit >button:hover{
+  background-color: #bbbbbb;
+  /* color: var(--color-p); */
+}

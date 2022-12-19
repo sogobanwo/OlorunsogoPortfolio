@@ -15,7 +15,6 @@ import python from "../PortfolioImages/Pythonpics.png"
 import flask from "../PortfolioImages/Flaskpics.png"
 import SetterApp from "../PortfolioImages/SetterAppPics.png"
 import TaskManager from "../PortfolioImages/TaskManager.png"
-import Iframe from "react-iframe"
 
 export const HomePageContent =()=>{
   return(
