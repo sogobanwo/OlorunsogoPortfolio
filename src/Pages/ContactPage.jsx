@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../Components/Footer";
 import { Header } from "../Components/Header";
 import "../StyleSheets/ContactPageContent.css"
+import "../StyleSheets/mobile.css"
 
 export const ContactPageContent = () => {
   return (
@@ -11,10 +12,11 @@ export const ContactPageContent = () => {
       </div>
       <div className="input-section">
         <label htmlFor="Name">NAME</label>
-        <input type="text" placeholder="Enter your name" />
+        <input className="box" type="text" placeholder="Enter your name" />
         <label htmlFor="message">MESSAGE</label>
         <textarea
           name="textarea"
+          className="box"
           placeholder="Drop me a message"
           id="textarea"
           cols={30}

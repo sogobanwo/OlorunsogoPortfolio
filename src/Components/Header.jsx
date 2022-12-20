@@ -2,7 +2,7 @@ import React from "react";
 import "../StyleSheets/Header.css"
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa"
 import { Link } from "react-router-dom";
-
+import "../StyleSheets/mobile.css"
 
 export const Header = () =>{
   return (

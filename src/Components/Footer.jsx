@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "../StyleSheets/Footer.css"
+import "../StyleSheets/mobile.css"
 
 const Footer = () => {
   return (

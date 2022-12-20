@@ -1,0 +1,94 @@
+@media (max-width: 900px) {
+  *{
+    margin:auto !important;
+    font-size: 5px;
+  }
+  /* header */
+  .header-2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .header-2 > div > .my_logo{
+    justify-self: center;
+  }
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #navbar > div{
+    padding: 1rem 0;
+  }
+  #header_link > a, #header_icon > a{
+    padding: 0 2rem;
+  }
+  #header_icon > a > svg {
+    font-size: 2rem;
+  }
+  /* work page */
+  .above-cards{
+    margin-bottom: 4rem !important;
+  }
+  /* contact page */
+  .input-section > label , .submit > button{
+    margin: 2rem 0 !important;
+  }
+  .box{
+    width: 100% !important;
+  }
+  /* about page  */
+  #work-experience > div > div > p{
+    margin: .5rem 0 !important;
+  }
+  #about-me-section{
+    margin-top: 4rem !important;
+  }
+
+  .grid-wrapper{
+    gap: 7rem !important;
+    margin-bottom: 5rem !important;
+  }
+  /* footer */
+  #footer_bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem !important;
+  }
+  footer{
+    margin-top: 8rem !important;
+  }
+  #footer_link > a{
+    padding: 2rem 2rem;
+  }
+  #copyright{
+    text-align: center;
+  }
+  #sogo{
+    margin: 2rem 0 !important;
+  }
+
+.intro{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin: 3rem 2rem !important;
+}
+#tech-stack{
+  margin: 3rem 0 !important;
+}
+.tech-stack-header{
+  margin: 3rem 0 !important;
+}
+.tech-images > img{
+  margin: .5rem !important;
+}
+.tech-images{
+  margin: 0 3rem !important;
+}
+.third-section{
+  margin: 3rem 0 !important;
+}
+.project-header, .index-card > .each-card{
+  margin: 3rem 0 !important;
+}
+}

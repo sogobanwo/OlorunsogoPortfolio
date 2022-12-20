@@ -15,6 +15,7 @@ import python from "../PortfolioImages/Pythonpics.png"
 import flask from "../PortfolioImages/Flaskpics.png"
 import SetterApp from "../PortfolioImages/SetterAppPics.png"
 import TaskManager from "../PortfolioImages/TaskManager.png"
+import "../StyleSheets/mobile.css"
 
 export const HomePageContent =()=>{
   return(
