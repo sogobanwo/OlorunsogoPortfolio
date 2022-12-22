@@ -5,10 +5,17 @@ import "../StyleSheets/ContactPageContent.css";
 import "../StyleSheets/mobile.css";
 import { useForm, ValidationError } from "@formspree/react";
 
+const Swal = require('sweetalert2')
+
+
 export const ContactPageContent = () => {
   const [state, handleSubmit] = useForm("mbjerzrl");
   if (state.succeeded) {
-    return <p>Thanks Messaging, We will reply shortly</p>;
+    Swal.fire(
+      'Message Sent',
+      'I will reply shortly, Thanks!',
+      'success'
+    )
   }
   return (
     <section className="work-with-me" id="contact">

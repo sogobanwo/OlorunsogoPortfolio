@@ -31,6 +31,7 @@
 }
 .each-card > a{
   color: var(--color-b);
+  margin: 1rem;
 }
 .each-card img{
   width: 100%;
@@ -42,12 +43,12 @@
 }
 .each-card h1{
   font-size: 2rem;
-  margin: 1rem;
+  margin: 2rem 1.2rem;
   color: var(--color-b);
 }
 .each-card p{
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: 2rem 1.2rem;
 }
 .above-cards > p {
   font-size: 1.7rem;
