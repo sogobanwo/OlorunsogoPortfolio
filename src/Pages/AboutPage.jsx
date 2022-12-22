@@ -64,7 +64,7 @@ export const AboutPageContent = () => {
               <p className="type">Internship</p>
             </div>
             <div className="work-experience-bottom">
-              <p>21st Century Evolutions Systems Limited</p>
+              <p>21st Century Evolutions Systems </p>
               <p>Feb - Aug, 2021</p>
             </div>
             <div className="mid-line" />
@@ -75,7 +75,7 @@ export const AboutPageContent = () => {
             <h1>Education</h1>
             <div>
               <div className="work-experience-top">
-                <p>Bsc. Mechancal Engineering (Second Class Upper Division)</p>
+                <p>Bsc. Mechancal Engineering </p>
                 <p className="type">Full Time</p>
               </div>
               <div className="work-experience-bottom">

@@ -41,13 +41,24 @@
   #work-experience > div > div > p{
     margin: .5rem 0 !important;
   }
+  #work-experience > h1{
+    font-size: 25px !important;
+  }
   #about-me-section{
-    margin-top: 4rem !important;
+    margin: 2rem !important;
+    width: 90vw !important;
+  }
+  .about-me > h1{
+    font-size: 25px !important;
+  }
+  .work-experience-top{
+    display: flex !important;
+    align-items: center !important;
   }
 
   .grid-wrapper{
     gap: 7rem !important;
-    margin-bottom: 5rem !important;
+    margin:0 3rem 2rem !important;
   }
   /* footer */
   #footer_bottom{
@@ -66,12 +77,19 @@
   }
   #sogo{
     margin: 2rem 0 !important;
+    font-size: 25px !important;
   }
 
 .intro{
   display: flex;
   flex-wrap: wrap-reverse;
   margin: 3rem 2rem !important;
+}
+#big-text > h1{
+  font-size: 25px !important;
+}
+.tech-stack-header > h1{
+  font-size: 25px !important;
 }
 #tech-stack{
   margin: 3rem 0 !important;
@@ -90,5 +108,8 @@
 }
 .project-header, .index-card > .each-card{
   margin: 3rem 0 !important;
+}
+.project-header{
+  font-size: 25px !important;
 }
 }
