@@ -1,32 +1,49 @@
 import React from "react";
 import Footer from "../Components/Footer";
 import { Header } from "../Components/Header";
-import "../StyleSheets/ContactPageContent.css"
-import "../StyleSheets/mobile.css"
+import "../StyleSheets/ContactPageContent.css";
+import "../StyleSheets/mobile.css";
+import { useForm, ValidationError } from "@formspree/react";
 
 export const ContactPageContent = () => {
+  const [state, handleSubmit] = useForm("mbjerzrl");
+  if (state.succeeded) {
+    return <p>Thanks Messaging, We will reply shortly</p>;
+  }
   return (
     <section className="work-with-me" id="contact">
       <div className="work-with-me-header">
         <h2>WORK WITH ME</h2>
       </div>
-      <div className="input-section">
-        <label htmlFor="Name">NAME</label>
-        <input className="box" type="text" placeholder="Enter your name" />
+      <form className="input-section" onSubmit={handleSubmit}>
+        <label htmlFor="Name">Email Address</label>
+        <input
+          className="box"
+          type="email"
+          placeholder="Enter your Email Address"
+          id="email"
+          name="email"
+        />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
         <label htmlFor="message">MESSAGE</label>
         <textarea
-          name="textarea"
+          name="message"
           className="box"
           placeholder="Drop me a message"
-          id="textarea"
+          id="message"
           cols={30}
           rows={10}
           defaultValue={""}
         />
-        <div className="submit">
-          <button>Send</button>
+        <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+        <div className="submit" >
+          <button type="submit" disabled={state.submitting}>Send</button>
         </div>
-      </div>
+      </form>
     </section>
   );
 };
