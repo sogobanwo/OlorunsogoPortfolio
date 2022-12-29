@@ -18,9 +18,7 @@ export const AboutPageContent = () => {
           <p>
             Banwo Olorunsogo is a highly resourceful and intelligent Software
             Developer seeking to develop professional competence in the Software
-            Engineering field by solving real life problems with his skills. He
-            is currently a fellow at the TIIDELab Cohort 4 Fellowship where he
-            is enrolled to be become a Frontend Software Developer.
+            Engineering field by solving real life problems with his skills.
           </p>
         </div>
         <div id="work-experience">
