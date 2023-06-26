@@ -29,7 +29,29 @@ export const AboutPageContent = () => {
               <p className="type">Junior Developer</p>
             </div>
             <div className="work-experience-bottom">
-              <p>Rashotech Web Services</p>
+              <p>Voluntrr Services, Birmingham, UK</p>
+              <p>May 2023 - Present</p>
+            </div>
+            <div className="mid-line" />
+          </div>
+          <div>
+            <div className="work-experience-top">
+              <p>Mechanical Engineer</p>
+              <p className="type">Trainee</p>
+            </div>
+            <div className="work-experience-bottom">
+              <p>First Metro Infrastructure Limited. Lagos, Nigeria.</p>
+              <p>March 2023 - Present</p>
+            </div>
+            <div className="mid-line" />
+          </div>
+          <div>
+            <div className="work-experience-top">
+              <p>Frontend Developer</p>
+              <p className="type">Junior Developer</p>
+            </div>
+            <div className="work-experience-bottom">
+              <p>Rashotech Web Services, Oyo, Nigeria</p>
               <p>Aug 2022 - Present</p>
             </div>
             <div className="mid-line" />
@@ -40,7 +62,7 @@ export const AboutPageContent = () => {
               <p className="type">Internship</p>
             </div>
             <div className="work-experience-bottom">
-              <p>Rashotech Web Services</p>
+              <p>Rashotech Web Services, Oyo, Nigeria</p>
               <p>Sept 2021 - Aug, 2022</p>
             </div>
             <div className="mid-line" />
@@ -51,7 +73,7 @@ export const AboutPageContent = () => {
               <p className="type">Internship</p>
             </div>
             <div className="work-experience-bottom">
-              <p>TIIDELab</p>
+              <p>TIIDELab, Abuja, Nigeria</p>
               <p>June - December, 2022</p>
             </div>
             <div className="mid-line" />
@@ -62,7 +84,7 @@ export const AboutPageContent = () => {
               <p className="type">Internship</p>
             </div>
             <div className="work-experience-bottom">
-              <p>21st Century Evolutions Systems </p>
+              <p>21st Century Evolutions Systems, Lagos, Nigeria </p>
               <p>Feb - Aug, 2021</p>
             </div>
             <div className="mid-line" />
