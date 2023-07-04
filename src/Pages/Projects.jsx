@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 import { Header } from "../Components/Header";
 import "../StyleSheets/ProjectsContent.css";
 import "../StyleSheets/mobile.css";
-import goal from "../PortfolioImages/goal.PNG"
+import goal from "../PortfolioImages/goal.PNG";
 import Movix from "../PortfolioImages/movix.PNG";
 import short from "../PortfolioImages/short.PNG";
 import SetterApp from "../PortfolioImages/SetterAppPics.png";
@@ -57,14 +57,14 @@ export const ProjectsContent = () => {
             <p>Tech Stack: ReactJS & CSS</p>
             <a
               rel="noreferrer"
-              href="https://github.com/sogobanwo/Task-Management-App"
+              href="https://github.com/sogobanwo/Url-shortener"
               target="_blank"
             >
               <FaGithub size="25px" />
             </a>
             <a
               rel="noreferrer"
-              href="https://banwo-task-manager.netlify.app/"
+              href="https://banwo-shortly-url-shortener.vercel.app/"
               target="_blank"
             >
               <FaGlobe size="25px" />
