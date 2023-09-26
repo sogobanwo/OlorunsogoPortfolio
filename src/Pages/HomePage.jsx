@@ -14,7 +14,7 @@ import JS from "../PortfolioImages/javascriptpics.png";
 import git from "../PortfolioImages/gitpics.png";
 import react from "../PortfolioImages/Reactpics.png";
 import Movix from "../PortfolioImages/movix.PNG";
-import gallery from "../PortfolioImages/Image-DB.png"
+import gallery from "../PortfolioImages/Image-DB.png";
 import "../StyleSheets/mobile.css";
 
 export const HomePageContent = () => {
@@ -101,8 +101,8 @@ export const HomePageContent = () => {
               <img src={gallery} width="120px" height="120px" alt="Sogo" />
               <h1>The Image Gallery</h1>
               <p>
-                A place where you view movies, their details and also search for
-                movies
+                About A web app that allows users drag and drop images in
+                different positions and authentication was done
               </p>
               <p>Tech Stack: ReactJS & CSS</p>
               <a
